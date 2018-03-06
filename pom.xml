@@ -8,30 +8,12 @@
 		<version>1.0.1-SNAPSHOT</version>
 		<relativePath />
 	</parent>
-  
+
 	<groupId>org.onap.sdnc.features</groupId>
 	<artifactId>sdnc-features</artifactId>
 	<version>1.3.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-<!-- 	 <modules>
-		<module>sdnc_reports_dao</module>
-		<module>sdnc_reports_api</module>  	
-     </modules>
-  
-  
-  <dependencyManagement>
-     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-dependencies</artifactId>
-            <version>1.3.5.RELEASE</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
-    </dependencies>
-</dependencyManagement> -->
-  
 	<name>sdnc-features</name>
 	<description>The SDN-C features repository contains code for karaf features that are used by the SDN controller</description>
 	<url>https://wiki.onap.org</url>
