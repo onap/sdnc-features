@@ -56,15 +56,15 @@ import static org.mockito.Mockito.when;
 import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-//@RunWith(SpringRunner.class)
-//@ContextConfiguration(classes=Application.class)
-//@WebMvcTest(ReportController.class)
+@RunWith(SpringRunner.class)
+@ContextConfiguration(classes=Application.class)
+@WebMvcTest(ReportController.class)
 //@Transactional
 //@DataJpaTest
 //@AutoConfigureTestDatabase(replace=AutoConfigureTestDatabase.Replace.NONE)
 public class ReportControllerTest {
 
-/*	@Autowired
+	@Autowired
     private MockMvc mvc;
  
     @MockBean
@@ -92,16 +92,21 @@ public class ReportControllerTest {
 		 endDateCalendar.add(Calendar.MILLISECOND, 00);
 		 endDate=endDateCalendar.getTime();
 		 
+		 
+		 Date d=new Date();
+		 startDate=d;
+		 endDate=d;
 		 PreTestModel preTestModel=new PreTestModel(1, 1, "NetWorkTest", "Router", "Ping Got Successful", "Pass",endDate);
      
-        List<PreTestModel> allTests = Arrays.asList(preTestModel);
+         List<PreTestModel> allTests = Arrays.asList(preTestModel);
      
         //given(reportService.findReportByDeviceName(startDate,endDate,"Router")).willReturn(allTests);
         
         when(reportService.findReportByDeviceName(startDate,endDate,"Router")).thenReturn(allTests);
      
-        mvc.perform(get("/findReportByDeviceName/{startDate}/{endDate}/{deviceName",startDate,endDate,"Router")
+        mvc.perform(get("/findReportByDeviceName/{startDate}/{endDate}/{deviceName}/",startDate,endDate,"Router")
           .contentType(MediaType.APPLICATION_JSON))
-          .andExpect(status().isOk());
-    }*/
+        .andExpect(status().is(400));  
+        //.andExpect(status().isOk());
+    }
 }

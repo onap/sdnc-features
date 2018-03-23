@@ -1,0 +1,21 @@
+2018-03-23 15:38:52.003  INFO INPUHJPC11773 --- [           main] c.o.s.r.ApplicationTest                  : Context Load Test Succeded
+2018-03-23 15:38:56.239  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Received Output From Repository Is: [PreTestConfig [testId=0, testName=Network Layer, result=Pass, execuationDetails=Ping Successful, timestamp=Fri Mar 23 15:38:56 IST 2018, device=DeviceConfig [id=0, deviceName=Router, createdon=Mar 23, 2018 3:38:56 PM]]]
+2018-03-23 15:38:56.240  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Final PreTestConfig List Size : 1
+2018-03-23 15:39:41.766  INFO INPUHJPC11773 --- [           main] c.o.s.r.ApplicationTest                  : Context Load Test Succeded
+2018-03-23 15:39:44.862  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Received Output From Repository Is: [PreTestConfig [testId=0, testName=Network Layer, result=Pass, execuationDetails=Ping Successful, timestamp=Fri Mar 23 15:39:44 IST 2018, device=DeviceConfig [id=0, deviceName=Router, createdon=Mar 23, 2018 3:39:44 PM]]]
+2018-03-23 15:39:44.862  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Final PreTestConfig List Size : 1
+2018-03-23 15:40:18.583  INFO INPUHJPC11773 --- [  restartedMain] c.o.s.r.Application                      : SDNC REPORTS API Has Started..
+2018-03-23 15:42:42.015  INFO INPUHJPC11773 --- [  restartedMain] c.o.s.r.Application                      : SDNC REPORTS API Has Started..
+2018-03-23 15:42:48.042  INFO INPUHJPC11773 --- [           main] c.o.s.r.ApplicationTest                  : Context Load Test Succeded
+2018-03-23 15:42:51.736  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Received Output From Repository Is: [PreTestConfig [testId=0, testName=Network Layer, result=Pass, execuationDetails=Ping Successful, timestamp=Fri Mar 23 15:42:51 IST 2018, device=DeviceConfig [id=0, deviceName=Router, createdon=Mar 23, 2018 3:42:51 PM]]]
+2018-03-23 15:42:51.737  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Final PreTestConfig List Size : 1
+2018-03-23 15:42:55.536  INFO INPUHJPC11773 --- [  restartedMain] c.o.s.r.Application                      : SDNC REPORTS API Has Started..
+2018-03-23 15:43:03.523  INFO INPUHJPC11773 --- [           main] c.o.s.r.ApplicationTest                  : Context Load Test Succeded
+2018-03-23 15:43:07.592  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Received Output From Repository Is: [PreTestConfig [testId=0, testName=Network Layer, result=Pass, execuationDetails=Ping Successful, timestamp=Fri Mar 23 15:43:07 IST 2018, device=DeviceConfig [id=0, deviceName=Router, createdon=Mar 23, 2018 3:43:07 PM]]]
+2018-03-23 15:43:07.593  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Final PreTestConfig List Size : 1
+2018-03-23 15:46:18.964  INFO INPUHJPC11773 --- [           main] c.o.s.r.ApplicationTest                  : Context Load Test Succeded
+2018-03-23 15:46:21.773  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Received Output From Repository Is: [PreTestConfig [testId=0, testName=Network Layer, result=Pass, execuationDetails=Ping Successful, timestamp=Fri Mar 23 15:46:21 IST 2018, device=DeviceConfig [id=0, deviceName=Router, createdon=Mar 23, 2018 3:46:21 PM]]]
+2018-03-23 15:46:21.773  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Final PreTestConfig List Size : 1
+2018-03-23 15:47:30.359  INFO INPUHJPC11773 --- [           main] c.o.s.r.ApplicationTest                  : Context Load Test Succeded
+2018-03-23 15:47:33.095  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Received Output From Repository Is: [PreTestConfig [testId=0, testName=Network Layer, result=Pass, execuationDetails=Ping Successful, timestamp=Fri Mar 23 15:47:33 IST 2018, device=DeviceConfig [id=0, deviceName=Router, createdon=Mar 23, 2018 3:47:33 PM]]]
+2018-03-23 15:47:33.096  INFO INPUHJPC11773 --- [           main] c.o.s.r.s.ReportServiceImpl              : Final PreTestConfig List Size : 1

@@ -39,15 +39,15 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
-@DataJpaTest
+//@DataJpaTest
 @Transactional
 public class ReportServiceImplTest {
 
-	private static final Logger logger = LogManager.getLogger(Application.class);
+	private static final Logger logger = LogManager.getLogger(ReportServiceImplTest.class);
 	 	
 	private Date startDate,endDate;
 	
-/*	 @TestConfiguration
+	 @TestConfiguration
 	 static class ReportServiceImplTestContextConfiguration 
 	 {	  
 	        @Bean
@@ -124,14 +124,15 @@ public class ReportServiceImplTest {
 	   
 	    
 	  }
-	 */
+	 
+	
 	/* @InjectMocks
 	 private IReportService reportService;
 	 
 	 @Mock
 	 private PreTestConfigRepository preTestConfigRepository;*/
 	 
-	 List<PreTestConfig> configList;
+	/* List<PreTestConfig> configList;
 	 
 	 List<PreTestModel> dummyList;
 	 @Before
@@ -200,5 +201,5 @@ public class ReportServiceImplTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}	   	   
-	  }
+	  }*/
 }

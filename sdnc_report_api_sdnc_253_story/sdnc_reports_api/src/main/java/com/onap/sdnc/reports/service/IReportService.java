@@ -33,15 +33,15 @@ import com.onap.sdnc.reports.rest.model.PreTestModel;
 
 public interface IReportService {
 	
-/*	public void saveReport(@RequestBody Report Report);
+	/*public void saveReport(@RequestBody Report Report);
 	
 	public Response findAllReports(@PathVariable("startDate") Date startDate,@PathVariable("endDate") Date endDate);
 	
 	
 	public Response findReportByTestName(@PathVariable("startDate") Date startDate,@PathVariable("endDate") Date endDate,@PathVariable("testName") String testName); 
-			
-	public Response findReportsByDeviceNamdAndTestName(@PathVariable("startDate") Date startDate,@PathVariable("endDate") Date endDate,@PathVariable("deviceName") String deviceName,@PathVariable("testName") String testName);
-*/	
+	*/
 	public List<PreTestModel> findReportByDeviceName(@PathVariable("startDate") Date startDate,@PathVariable("endDate") Date endDate,@RequestParam("deviceName") String deviceName) throws Exception;
+	
+	//public Response findReportsByDeviceNamdAndTestName(@PathVariable("startDate") Date startDate,@PathVariable("endDate") Date endDate,@PathVariable("deviceName") String deviceName,@PathVariable("testName") String testName);
 
 }
