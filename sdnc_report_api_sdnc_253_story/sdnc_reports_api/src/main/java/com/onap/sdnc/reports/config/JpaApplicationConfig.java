@@ -19,6 +19,8 @@
 */
 package com.onap.sdnc.reports.config;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.dao.support.PersistenceExceptionTranslator;
@@ -33,6 +35,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 //@Configuration
 //@EnableJpaRepositories("com.onap.sdnc.reports.repository")
 //@EnableTransactionManagement
+
+@EnableAutoConfiguration
+@EnableJpaRepositories("com.onap.sdnc.reports.repository")
+@EntityScan("com.onap.sdnc.reports.*")
 public class JpaApplicationConfig {
 	
 	/*@Bean

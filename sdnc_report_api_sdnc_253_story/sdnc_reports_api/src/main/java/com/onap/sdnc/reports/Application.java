@@ -33,9 +33,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 //@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})
-@EnableJpaRepositories("com.onap.sdnc.reports.repository")
-@EnableAutoConfiguration
-@EntityScan("com.onap.sdnc.reports.*")
 public class Application {
 	private static final Logger logger = LogManager.getLogger(Application.class);
 	public static void main(String[] args) {
