@@ -17,6 +17,7 @@
  
   <modules>
   	<module>sdnc_reports_dao</module>
-  	<module>sdnc_reports_api</module>  	
+  	<module>sdnc_reports_api</module>
+  	<module>sdnc_reports_service</module>  	  	
   </modules>
 </project>
