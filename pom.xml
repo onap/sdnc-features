@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.onap.ccsdk.parent</groupId>
 		<artifactId>odlparent-lite</artifactId>
-		<version>1.0.2-SNAPSHOT</version>
+		<version>1.0.4</version>
 		<relativePath />
 	</parent>
 
 	<groupId>org.onap.sdnc.features</groupId>
 	<artifactId>sdnc-features</artifactId>
-	<version>1.3.2-SNAPSHOT</version>
+	<version>1.3.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>sdnc-features</name>
